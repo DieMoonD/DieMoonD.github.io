@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 6vh;
+    background-color: rgb(37,37,37);
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    border-bottom: 2px solid greenyellow;
+}
+
+.logo {
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    position: relative;
+    left: 25%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li :hover {
+    color: greenyellow;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu {
+    display: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(37,37,37);
+    color: white;
+    border-top: 2px solid greenyellow;
+}
+
+
+@media screen and (max-width:1024px){
+    .nav-links {
+        width: 50%;
+        left: 150px;
+    }
+}
+
+@media screen and (max-width:768px){
+    body {
+        overflow-y: hidden;
+    }
+
+    .nav-links.close{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        text-align: center;
+        background-color: rgb(37,37,37);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translatey(6%);
+        left: 0;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links li {
+        opacity: 100%;
+    }
+
+    .nav-links li :hover {
+        color: greenyellow;
+    }
+
+    nav.close {
+        height: 100%;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .line {
+        top: 0;
+        position: relative;
+        margin: auto;
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        border-radius: 15px;
+        transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+    }
+
+    .menu.close .line1 {
+        transform: rotate(45deg);
+        top: 5px;
+    }
+    
+    .menu.close .line2 {
+        transform: rotate(-45deg);
+        top: 0;
+        right: 0;
+    }
+
+    .menu.close .line3 {
+        transform: rotate(-45deg);
+        top: -5px;
+    }
+    
+    .menu div{
+        width: 20px;
+        height: 2px;
+        background-color: white;
+        margin: 3px;
+    }
+
+}
