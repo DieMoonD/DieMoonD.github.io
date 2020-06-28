@@ -103,7 +103,7 @@ p {
     }
 
     .nav-links_m.close {
-        position: fixed;
+        position: absolute;
         top: 6vh;
         height: 100%;
         width: 100%;
