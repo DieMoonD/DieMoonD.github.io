@@ -103,7 +103,7 @@ p {
     }
 
     .nav-links_m.close {
-        position: absolute;
+        position: static;
         top: 6vh;
         height: 100%;
         width: 100%;
@@ -114,7 +114,7 @@ p {
 
     .nav-links_m li {
         list-style: none;
-        padding: 100px;
+        padding: 130px;
     }
 
     .nav-links_m li a {
