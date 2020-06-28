@@ -1,7 +1,9 @@
 $(document).ready(function(){
-	$("#menu").click( function() {
+    $("#menu").click(function(){
         $(".menu").toggleClass("close");
-        $(".nav-links_m").toggleClass("close");
-        $(".main-content").toggleClass("close");
-  });
-});
+        $(".n_c").toggleClass("close");
+        $(".sec1").toggleClass("close");
+        $(".sec2").toggleClass("close");
+        $(".sec3").toggleClass("close");
+    })
+})
