@@ -39,9 +39,8 @@ section {
 
 section.sec1 {
     background: url(../img/bg_img_001.jpg);
-    background: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 500px;
 }
 
 section.sec2 h2 {
