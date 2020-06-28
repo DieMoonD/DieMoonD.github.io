@@ -24,7 +24,7 @@ nav {
     font-family: 'Poppins', sans-serif;
     width: 100%;
     border-bottom: 2px solid greenyellow;
-    position: fixed;
+    position: sticky;
 }
 
 .logo {
