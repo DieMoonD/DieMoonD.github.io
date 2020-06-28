@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-    overflow: hidden;
+    overflow: auto;
     color: white;
     display: flex;
     justify-content: space-around;
