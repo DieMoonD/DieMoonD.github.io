@@ -54,7 +54,7 @@ nav {
     border-bottom: 2px solid greenyellow;
     position: sticky;
     top: 0;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 nav .n_c ul {
