@@ -1,0 +1,13 @@
+Resolution: 4:3 1440x1080 144hrz
+Global Shadow Quality: High
+Model / Texture Detail: High
+Texture Streaming: Disabled
+Effect Detail: High
+Shadow Detail: High
+Boost Player Contrast: Enabled
+Multicore Rendering: Enabled
+Multisampling Anti-Aliasing Mode: None
+FXAA Anti-Aliasing: Disabled
+Texture Filtering Mode: Bilinear
+Wait for Vertical Sync: Disabled
+Motion Blur: Disabled
