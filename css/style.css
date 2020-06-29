@@ -54,7 +54,6 @@ nav {
     border-bottom: 2px solid greenyellow;
     position: sticky;
     top: 0;
-    overflow-y: hidden;
 }
 
 nav .n_c ul {
@@ -131,18 +130,18 @@ nav .n_c ul li a {
 
     .menu.close .l1 {
         transform: rotate(45deg);
-        top: 32px;
+        top: 26px;
         padding: .2px;
     }
 
     .menu.close .l2 {
         transform: rotate(-45deg);
-        top: 27px;
+        top: 21px;
     }
 
     .menu.close .l3 {
         transform: rotate(-45deg);
-        top: 22px;
+        top: 16px;
     }
 
     .menu div {
@@ -151,7 +150,7 @@ nav .n_c ul li a {
         background-color: white;
         margin: 3px;
         left: 85%;
-        top: 25px;
+        top: 24px;
     }
 
     .sec1.close, .sec2.close, .sec3.close {
