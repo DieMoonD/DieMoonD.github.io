@@ -191,7 +191,6 @@ nav .n_c ul li a:hover{
         text-align: center;
         position: static;
         border-bottom: 2px solid greenyellow;
-        overflow: hidden;
     }
     
     nav .n_c.close ul li {
