@@ -134,6 +134,11 @@ nav .n_c ul li a:hover{
     max-height: 40px;
 }
 
+.csgo h3, .wf h3 {
+    text-transform: uppercase;
+    color: white;
+}
+
 .wf {
     background-color: rgba(37,37,37);
     width: 50%;
@@ -158,10 +163,6 @@ nav .n_c ul li a:hover{
     max-height: 40px;
 }
 
-.csgo h3, .wf h3 {
-    text-transform: uppercase;
-    color: white;
-}
 
 
 @media screen and (max-width:1048px){
