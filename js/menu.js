@@ -7,3 +7,8 @@ $(document).ready(function(){
         $("#content_s_3").toggleClass("close");
     })
 })
+
+window.addEventListener("scroll", function(){
+    var NavBar = document.getElementById("nav");
+    NavBar.classList.toggle("sticky",scrollY > 0);
+});
