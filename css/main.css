@@ -5,6 +5,10 @@ body {
     font-family: "Arial black";
 }
 
+html {
+    min-height: 100vh;
+}
+
 #nav {
     overflow: hidden;
     background-color: rgba(37,37,37);
@@ -162,16 +166,14 @@ footer {
     background-color: rgba(37,37,37);
     color: white;
     padding: 15px;
-    border: 1px solid greenyellow;
+    border-top: 1px solid greenyellow;
 }
 
 @media screen and (max-width:1048px){
+
     #nav h4 {
         margin-left: 50px;
     }
-}
-
-@media screen and (max-width:768px){
 
     #nav .n_c ul {
         display: none;
@@ -180,20 +182,21 @@ footer {
     #nav .n_c.close ul {
         display: inline-block;
         width: 100%;
-        height: 90vh;
+        height: 86vh;
         margin: 10px;
         padding: 0;
+        border-top: 1px solid greenyellow;
     }
 
     #nav .n_c.close ul li {
         list-style: none;
         text-align: center;
-        border-top: 1px solid greenyellow;
+        border-bottom: 1px solid greenyellow;
     }
 
     #nav .n_c.close ul li a {
         color: white;
-        padding: 83px;
+        padding: 30px;
     }
 
     .menu {
@@ -231,6 +234,10 @@ footer {
         margin: 3px;
         left: 80%;
         top: 24px;
+    }
+
+    #content_s_1 h1 {
+        font-size: 20px;
     }
 
     #content_s_1.close,#content_s_2.close,#content_s_3.close {
