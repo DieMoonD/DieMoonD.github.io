@@ -4,7 +4,6 @@ body {
     padding: 0;
     font-family: "Arial black";
     background-color: rgb(37,37,37);
-    border-bottom: 1px solid greenyellow;
 }
 
 html {
@@ -168,7 +167,6 @@ footer {
     background-color: rgba(37,37,37);
     color: white;
     padding: 15px;
-    border-top: 1px solid greenyellow;
 }
 
 @media screen and (max-width:1048px){
@@ -187,13 +185,13 @@ footer {
         height: 86vh;
         margin: 10px;
         padding: 0;
-        border-top: 1px solid greenyellow;
+        border-top: 1px solid white;
     }
 
     #nav .n_c.close ul li {
         list-style: none;
         text-align: center;
-        border-bottom: 1px solid greenyellow;
+        border-bottom: 1px solid white;
     }
 
     #nav .n_c.close ul li a {
