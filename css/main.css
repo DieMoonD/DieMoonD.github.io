@@ -57,7 +57,13 @@ html {
     text-transform: uppercase;
     padding: 0;
     letter-spacing: 3px;
-    margin-left: 100px;
+    margin-left: 60px;
+}
+
+#nav, .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 section {
@@ -72,10 +78,14 @@ section.home_p_sec1 {
     height: 920px;
 }
 
-#nav, .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+section.home_p_sec1 h1 {
+    padding-top: 300px;
+    text-align: center;
+    color: white;
+}
+
+section.home_p_sec2 h2{
+    color: black;
 }
 
 section.Game_p_sec1 {
@@ -89,16 +99,6 @@ section.Game_p_sec1 h1 {
     color: white;
     padding-top: 220px;
     text-align: center;
-}
-
-section.home_p_sec1 h1 {
-    padding-top: 300px;
-    text-align: center;
-    color: white;
-}
-
-section.home_p_sec2 h2{
-    color: white;
 }
 
 .s_list {
@@ -172,7 +172,7 @@ footer {
 @media screen and (max-width:1048px){
 
     #nav h4 {
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     #nav .n_c ul {
