@@ -112,25 +112,27 @@ section.Game_p_sec1 h1 {
 
 .s_list {
     display: flex;
+    text-transform: uppercase;
+    color: white;
 }
 
-.csgo {
-    background-color: rgba(37,37,37);
+#g_s {
+    background-color: rgb(37,37,37);
     width: 50%;
     text-align: center;
 }
 
-.csgo ul {
+#g_s ul {
     background-color: rgba(82,82,82);
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.csgo li a{
+#g_s li a{
     display: block;
     color: white;
-    text-decoration: none;
+    list-style: none;
     padding: 40px;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
@@ -138,37 +140,8 @@ section.Game_p_sec1 h1 {
     max-height: 40px;
 }
 
-.csgo h3, .wf h3 {
-    text-transform: uppercase;
-    color: white;
-}
-
-.csgo li a:hover, .wf li a:hover {
+#g_s li a {
     background-color: rgb(110, 110, 110);
-}
-
-.wf {
-    background-color: rgba(37,37,37);
-    width: 50%;
-    text-align: center;
-}
-
-.wf ul {
-    background-color: rgba(82,82,82);
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
-}
-
-.wf li a{
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 40px;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    max-height: 40px;
 }
 
 .menu {
