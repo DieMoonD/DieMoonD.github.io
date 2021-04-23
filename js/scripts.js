@@ -23,9 +23,9 @@ function startTime() {
     var day = today.getDate();
     var month = today.getMonth() + 1;
     var year = today.getFullYear();
-    var hr = today.getHours();
+    /*var hr = today.getHours();
     var min = today.getMinutes();
-    var sec = today.getSeconds();
+    var sec = today.getSeconds();*/
 
     min = checkTime(min);
     sec = checkTime(sec);
