@@ -29,7 +29,7 @@ function startTime() {
 
     min = checkTime(min);
     sec = checkTime(sec);
-    document.getElementById("time").innerHTML = day + "." + month + "." + year + ' ' + hr + "." + min;
+    document.getElementById("time").innerHTML = day + "." + month + "." + year;
     var time = setTimeout(function () { startTime() }, 2000);
 }
 
