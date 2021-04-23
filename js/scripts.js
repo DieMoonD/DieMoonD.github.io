@@ -27,8 +27,8 @@ function startTime() {
     var min = today.getMinutes();
     var sec = today.getSeconds();*/
 
-    min = checkTime(min);
-    sec = checkTime(sec);
+    /*min = checkTime(min);
+    sec = checkTime(sec);*/
     document.getElementById("time").innerHTML = day + "." + month + "." + year;
     var time = setTimeout(function () { startTime() }, 2000);
 }
